@@ -1,0 +1,27 @@
+
+
+/* Hero Section */
+.hero-section{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Projects Section */
+.projects-section{
+    height: 100vh;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+/* Contact Sections */
+.contact-section{
+    height: 100vh;
+    background-color: red;
+    color: white;
+}
