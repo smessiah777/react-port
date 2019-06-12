@@ -1,10 +1,26 @@
-
+/* style notes 
+main-blue - #041230
+main-orange - #E3872D
+gray - #F6F7FD
+*/
 
 /* Hero Section */
 .hero-section{
+    position: relative;
     height: 100vh;
-    background-color: black;
-    color: white;
+    background-image: url(./assets/images/chicago.jpeg);
+    background-position: cover;
+}
+
+
+.hero-overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #041230ab;
+
 }
 
 

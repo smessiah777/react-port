@@ -26,12 +26,14 @@ function App() {
 
       
    <section className="sections hero-section" id="hero">
-     <h1>Hero</h1>
+    <div className="hero-overlay">
+      
+    </div>
    </section>
    <section className="sections projects-section" id="projects">
      <h1>projects</h1>
    </section>
-   <section className="sections contact-section" id="projects">
+   <section className="sections contact-section" id="contact">
      <h1>contact </h1>
    </section>
       
