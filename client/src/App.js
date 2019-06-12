@@ -27,7 +27,11 @@ function App() {
       
    <section className="sections hero-section" id="hero">
     <div className="hero-overlay">
-      
+    <div className="hero-content-wrap">
+        <h1 className="name">Stephen <span className="last-name">Messiah</span></h1>
+        <h2 className="sub-title">Web Developer</h2>
+    </div>
+     
     </div>
    </section>
    <section className="sections projects-section" id="projects">
