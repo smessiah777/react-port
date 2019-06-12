@@ -4,6 +4,12 @@ main-orange - #E3872D
 gray - #F6F7FD
 */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 /* Hero Section */
 .hero-section{
     position: relative;
@@ -14,14 +20,41 @@ gray - #F6F7FD
 
 
 .hero-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
     height: 100vh;
     width: 100vw;
     top: 0;
     left: 0;
-    background-color: #041230ab;
+    background-color: #041230b7;
+
 
 }
+
+.hero-content-wrap{
+    z-index: 2;
+}
+
+.name{
+    font-size: 6rem;
+    color: white;
+}
+
+.last-name{
+    font-size: 6rem;
+    color: #E06D06;
+}
+
+.sub-title{
+    font-size: 3rem;
+    color: white;
+    
+}
+
+
 
 
 
